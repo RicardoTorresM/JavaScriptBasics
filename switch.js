@@ -36,3 +36,9 @@ switch (true){
     default:
         console.log("PERDISTE")
 }
+
+if (false === !true){
+    console.log(false == true)
+} else {
+    console.log(true === !false)
+}
